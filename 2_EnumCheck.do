@@ -1,13 +1,15 @@
 ***********************************************************************************
 ** 	TITLE	: 7_enumerator_stats.do
 **
-**	PURPOSE	: Run Enumerator Checks on Dataset
+**	PURPOSE	: Running Enumerator Checks on Dataset
 **				
 **	AUTHOR	: Ananya 
 **
 **	DATE	: 10.12.2025 
 ********************************************************************************
-
+*** THIS IS A DO FILE THAT IS DESIGNED TO RUN EXCLUSIVELY WITH THE CONFIDENTIAL DATASET BENIN.RAW.dta ***
+** Dataset is not publicly available ** 
+** This is only meant to be sample piece of code, must be adapted ** 
    *========================= Creating Enum_Stats Workbook =========================* 
 
 use "$rawsurvey", clear 
